@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="rainbowweed/candace" scale="6" antialiasing="false" icon="rainbowweed/airpod" color="#FFA141">
+	<anim name="idle" anim="candace idle0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singLEFT" anim="candace left0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singDOWN" anim="candace down0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singUP" anim="candace up0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singRIGHT" anim="candace right0" x="0" y="0" fps="15" loop="false"/>
+</character>

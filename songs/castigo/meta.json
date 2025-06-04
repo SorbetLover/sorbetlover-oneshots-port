@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 196,
+	"difficulties": [
+		"CASTIGO"
+	],
+	"needsVoices": true,
+	"parsedColor": -4823809,
+	"displayName": "castigo",
+	"icon": "rainbowweed/rainbow",
+	"name": "castigo",
+	"color": "#B664FF",
+	"customValues": {}
+}

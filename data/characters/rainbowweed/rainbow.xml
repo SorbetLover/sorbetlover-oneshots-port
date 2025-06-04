@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="rainbowweed/rainbow" scale="6" antialiasing="false" flipX="true" isPlayer="true" icon="rainbowweed/rainbow" color="#10A1FF">
+	<anim name="idle" anim="rainbow idle0" x="0" y="0" fps="15" loop="false"/>
+	<anim name="singLEFT" anim="rainbow left0" x="-3" y="0" fps="15" loop="false"/>
+	<anim name="singLEFTmiss" anim="rainbow left miss0" x="-3" y="0" fps="15" loop="false"/>
+	<anim name="singDOWN" anim="rainbow down0" x="-1" y="0" fps="15" loop="false"/>
+	<anim name="singDOWNmiss" anim="rainbow down miss0" x="0" y="1" fps="15" loop="false"/>
+	<anim name="singUP" anim="rainbow up0" x="0" y="-4" fps="15" loop="false"/>
+	<anim name="singUPmiss" anim="rainbow up miss0" x="0" y="-3" fps="15" loop="false"/>
+	<anim name="singRIGHT" anim="rainbow right0" x="4" y="0" fps="15" loop="false"/>
+	<anim name="singRIGHTmiss" anim="rainbow right miss0" x="4" y="0" fps="15" loop="false"/>
+</character>

@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosY="-200" folder="stages/castigo/" startCamPosX="-200" zoom="0.6">
+	<sprite antialiasing="false" scale="6" sprite="sky" name="sky"/>
+	<combo x="1720" y="-281"/>
+	<sprite x="0" antialiasing="false" scrollFactorX="0.8" y="0" sprite="background" scale="6" scrollx="1.05" name="background"/>
+	<sprite antialiasing="false" scale="6" sprite="foreground" name="foreground"/>
+	<gf x="185" camxoffset="1000" y="279" camyoffset="10"/>
+	<bf x="573" camxoffset="-100" y="234" camyoffset="-50" lastPlayer="bf"/>
+	<dad x="-198" camxoffset="100" y="117" camyoffset="-50" lastOpponent="dad"/>
+</stage>

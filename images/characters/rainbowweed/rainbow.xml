@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rainbow.png">
+<SubTexture name="rainbow idle0000" x="187" y="282" width="63" height="85" frameX="-11" frameY="-16" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow idle0001" x="250" y="282" width="61" height="84" frameX="-13" frameY="-17" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow idle0002" x="270" y="194" width="61" height="86" frameX="-14" frameY="-15" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow idle0003" x="331" y="176" width="64" height="87" frameX="-12" frameY="-14" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow idle0004" x="0" y="282" width="63" height="87" frameX="-12" frameY="-14" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow left0000" x="311" y="282" width="63" height="84" frameX="0" frameY="-17" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow left0001" x="63" y="282" width="62" height="86" frameX="-2" frameY="-15" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow left0002" x="400" y="0" width="62" height="84" frameX="-2" frameY="-17" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow left0003" x="0" y="369" width="63" height="84" frameX="-1" frameY="-17" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow left miss0000" x="63" y="369" width="63" height="84" frameX="0" frameY="-17" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow left miss0001" x="125" y="282" width="62" height="86" frameX="-2" frameY="-15" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow left miss0002" x="400" y="84" width="62" height="84" frameX="-2" frameY="-17" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow left miss0003" x="126" y="369" width="63" height="84" frameX="-1" frameY="-17" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow down0000" x="462" y="0" width="59" height="77" frameX="-14" frameY="-24" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow down0001" x="308" y="369" width="61" height="79" frameX="-12" frameY="-22" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow down0002" x="400" y="168" width="60" height="81" frameX="-12" frameY="-20" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow down0003" x="400" y="249" width="59" height="81" frameX="-12" frameY="-20" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow down miss0000" x="462" y="77" width="59" height="77" frameX="-14" frameY="-24" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow down miss0001" x="369" y="369" width="61" height="79" frameX="-12" frameY="-22" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow down miss0002" x="189" y="369" width="60" height="81" frameX="-12" frameY="-20" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow down miss0003" x="249" y="369" width="59" height="81" frameX="-12" frameY="-20" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow up0000" x="200" y="0" width="64" height="90" frameX="-14" frameY="-5" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow up0001" x="68" y="98" width="66" height="94" frameX="-12" frameY="-4" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow up0002" x="0" y="0" width="66" height="98" frameX="-11" frameY="0" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow up0003" x="132" y="0" width="68" height="96" frameX="-9" frameY="-1" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow up miss0000" x="200" y="90" width="64" height="90" frameX="-14" frameY="-5" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow up miss0001" x="134" y="98" width="66" height="94" frameX="-12" frameY="-4" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow up miss0002" x="66" y="0" width="66" height="98" frameX="-11" frameY="0" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow up miss0003" x="0" y="98" width="68" height="96" frameX="-9" frameY="-1" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow right0000" x="0" y="194" width="66" height="88" frameX="-26" frameY="-13" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow right0001" x="264" y="0" width="67" height="89" frameX="-24" frameY="-12" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow right0002" x="66" y="194" width="69" height="88" frameX="-21" frameY="-13" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow right0003" x="135" y="194" width="69" height="88" frameX="-21" frameY="-13" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow right miss0000" x="204" y="194" width="66" height="88" frameX="-26" frameY="-13" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow right miss0001" x="264" y="89" width="67" height="89" frameX="-24" frameY="-12" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow right miss0002" x="331" y="0" width="69" height="88" frameX="-21" frameY="-13" frameWidth="92" frameHeight="101" />
+<SubTexture name="rainbow right miss0003" x="331" y="88" width="69" height="88" frameX="-21" frameY="-13" frameWidth="92" frameHeight="101" />
+</TextureAtlas>

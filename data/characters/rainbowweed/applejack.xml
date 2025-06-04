@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="rainbowweed/applejack" scale="6" antialiasing="false" icon="sprite-icon">
+	<anim name="danceLeft" anim="applejack idle0" x="0" y="0" fps="15" loop="false" indices="0..4"/>
+	<anim name="danceRight" anim="applejack idle0" x="0" y="0" fps="15" loop="false" indices="5..8"/>
+</character>
