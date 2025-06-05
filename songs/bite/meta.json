@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"BITE"
+	],
+	"icon": "face",
+	"parsedColor": -7179779,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "bite",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 210,
+	"name": "bite"
+}

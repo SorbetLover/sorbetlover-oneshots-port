@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/bite/" zoom="1.05">
+	<gf/>
+	<combo/>
+	<sprite sprite="win" name="win"/>
+	<sprite x="175" y="248" sprite="showdown" scale="1.86" name="showdown"/>
+	<sprite sprite="lobby" name="lobby"/>
+	<sprite x="1093" y="-373" sprite="trebor cam" scale="0.26" name="treborCam"/>
+	<sprite sprite="code trebor" name="codetrebor"/>
+	<bf lastPlayer="bf"/>
+	<dad lastOpponent="dad"/>
+</stage>

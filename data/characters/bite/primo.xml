@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="bite/primo" icon="sprite-icon">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="idle-alt" anim="idle-alt0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="intro" anim="intro0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singUP-alt" anim="up-alt0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singDOWN-alt" anim="down-alt0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singRIGHT-alt" anim="right-alt0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singLEFT-alt" anim="left-alt0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singUP" anim="up0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="0" y="0" fps="12" loop="false"/>
+</character>
