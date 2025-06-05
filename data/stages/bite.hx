@@ -11,7 +11,7 @@ function postCreate(){
 	iconP2.visible = false;
 	strumLines.members[0].characters[1].debugMode = true;
 	improvisedPoco = new Character(100,100, "bite/poco", false,false, false);
-	improvisedPoco.setPosition(1000, -800);
+	improvisedPoco.setPosition(1000, -500);
 	improvisedPoco.scale.set(1,1);
 	improvisedPoco.debugMode = true;
 	improvisedPoco.danceOnBeat = false;
@@ -57,7 +57,7 @@ function midle()
 	for(e in members){
 		if(e.name != null || (Std.isOfType(e, FunkinSprite) && !(Std.isOfType(e, Character)))){
 		e.scrollFactor.set(0,0);
-		e.screenCenter();
+		// e.screenCenter();
 			// trace(Type.getClassName(Type.getClass(e)) + " ==== " + e.name); // Outputs: flixel.FlxSprite
 		}
 		if(Std.isOfType(e, Character)){
@@ -77,7 +77,7 @@ function midle()
 	}
 
 	treborCam.x = 775;
-	treborCam.y -= 270;
+	treborCam.y -= 180;
 	trebor.scale.set(0.22,0.22);
 	trebor.setPosition(-84,-997);
 
@@ -92,17 +92,30 @@ function midle()
 	remove(mortis);
 	insert(members.indexOf(fang) - 1, mortis);
 
+	codetrebor.x -= 320;
+	codetrebor.y -= 180;
+	showdown.y -= 175;
+	showdown.x -= 100;
+	lobby.screenCenter();
+	win.screenCenter();
+	win.x -= 200;
+
+	fuck(0xFF00FF00, 0xFF00FF00);
+
 	
 	
 }
 function postUpdate(){
-	camFollow.setPosition(lobby.x + 1150,lobby.y + 200);
+	// camFollow.setPosition(codetrebor,lobby.y + 200);
 	if(FlxG.keys.justPressed.T){
 		lobby.visible = false;
 		edgar1.visible = true;
 	}
 }
-
+function fuck(a,b){
+	healthBar.createFilledBar(a, b);    
+	health = 1;
+}
 function stepHit(){
 	if(curStep >= 224){
 				lobby.visible = false;
@@ -112,6 +125,7 @@ function stepHit(){
 	}
 	if(curStep >= 224 && curStep <= 768){
 		edgar1.visible = true;
+			
 	} else if(curStep >= 768 && curStep <= 1152){
 		edgar1.visible = false;
 		poco.visible = true;
@@ -139,6 +153,8 @@ function stepHit(){
 			camGame.fade(0xFF000000, 1 / vocals.pitch, false);
 		case 224:
 			lobby.visible = false;
+			fuck(0xFFc500ff, 0xFF00FF00);
+
 			camGame.fade(0xFF000000, 0.5 / vocals.pitch, true);
 			edgar1.visible = true;
 		
@@ -156,6 +172,8 @@ function stepHit(){
 			edgar1.visible = false;
 			poco.visible = true;
 			poco.debugMode = false;
+			fuck(0xFFffb62d, 0xFF00FF00);
+
 		case 880, 884, 888, 892:
 			camGame.angle += 15;		
 		case 896:
@@ -172,6 +190,8 @@ function stepHit(){
 			poco.visible = false;
 		case 1264:
 			fang.visible = true;
+								fuck(0xFF0093ff, 0xFF00FF00);
+
 
 		case 1504:
 			// fang.danceOnBeat = false;
@@ -183,12 +203,17 @@ function stepHit(){
 
 			mortis.playAnim("intro", true);
 			mortis.visible = true;
+
+			
 			trace(mortis.x);
 			FlxTween.tween(mortis, {x:mortis.x + 1400}, 0.7, {ease: FlxEase.cubeOut});
 		case 1536:
 			fang.visible = false;
 			mortis.danceOnBeat = true;
 			mortis.debugMode = false;
+			fuck(0xFF3e0071, 0xFF00FF00);
+						camGame.fade(0xFFFFFFFF, 0.35 / vocals.pitch, true);
+
 		case 2016:
 			FlxTween.tween(gadget, {x: 1900}, 2 / vocals.pitch);
 			gadget.visible = true;
@@ -199,6 +224,8 @@ function stepHit(){
 			primo.danceOnBeat = false;
 			primo.debugMode = true;
 			primo.playAnim("idle-alt", true);
+						fuck(0xFFffa378, 0xFF00FF00);
+
 
 		case 2082:
 			primo.danceOnBeat = true;
@@ -213,6 +240,8 @@ function stepHit(){
 			FlxTween.tween(edgar2, {x:edgar2.x + 1000}, 0.5 / vocals.pitch, {ease:FlxEase.cubeOut});
 			edgar2.danceOnBeat = false;
 			edgar2.debugMode = true;
+			fuck(0xFFc500ff, 0xFF00FF00);
+
 		case 2624:
 			edgar2.danceOnBeat = true;
 			edgar2.debugMode = false;
@@ -227,6 +256,8 @@ function stepHit(){
 			camGame.fade(0xFFFFFFFF, 0.3, true);
 			showdown.visible = false;
 			win.visible = true;
+				fuck(0xFF00FF00, 0xFF00FF00);
+
 
 		case 3670:
 			camGame.fade(0xFF000000, 0.01, false);
@@ -258,5 +289,21 @@ function onNoteHit(e){
 		}
 		
 	}
+}
+
+function onDadHit(){
+	
+	// health += PlayState.instance.opponentMode ? 0.03 : -0.03;
+	switch(PlayState.instance.opponentMode){
+		case false:
+			if(health >= 0.2){
+				health -= 0.03;
+			}
+		case true:
+			if(health <= 1.9){
+				health += 0.03;
+			}
+	}
+	// trace(health);
 }
 

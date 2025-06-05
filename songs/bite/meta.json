@@ -3,7 +3,7 @@
 	"difficulties": [
 		"BITE"
 	],
-	"icon": "face",
+	"icon": "bite/trebor",
 	"parsedColor": -7179779,
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
