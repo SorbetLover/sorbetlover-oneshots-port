@@ -17,6 +17,12 @@ static var daPixelZoom = 6;
 /**
  * UI
  */
+function create(){
+	if(FlxG.save.data.keyCount != 4){
+		pixelNotesForBF = false;
+		pixelNotesForDad = false;
+	}
+}
 function onNoteCreation(event) {
 	if (event.note.strumLine == playerStrums && !pixelNotesForBF) return;
 	if (event.note.strumLine == cpuStrums && !pixelNotesForDad) return;

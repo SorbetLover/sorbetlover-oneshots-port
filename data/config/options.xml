@@ -1,7 +1,9 @@
 <!DOCTYPE codename-mod-options>
 <!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
 <menu name="Mod Options" desc="Modify mod options here">
-	<checkbox id="checkboxExample" name="Checkbox example" />
+	<number id="keyCount" name="Key Count" min="1" max="9" change="1"/>
+
+	<!-- <checkbox id="checkboxExample" name="Checkbox example" />
 	<number id="numberExample" name="Number example" min="0" max="10" change="1"/>
 	<choice id="choiceExample" name="Choice Example">
 		<value name="Disabled" value="disabled"/>
@@ -11,5 +13,5 @@
 
 	<menu name="Submenu Example" desc="Submenu test">
 		<checkbox id="levelOfIdk2" name="Level of idk" />
-	</menu>
+	</menu> -->
 </menu>
