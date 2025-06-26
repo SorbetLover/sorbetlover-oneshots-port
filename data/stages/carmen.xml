@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/carmen/" zoom="1.05">
+	<sprite x="-950" y="-250" sprite="bg_carmen" name="bg_carmen" scale="0.65"/>
+	<gf/>
+	<dad lastOpponent="dad" camxoffset="-150" scale="0.8"/>
+	<bf lastPlayer="bf" camxoffset="100"/>
+	<combo/>
+</stage>

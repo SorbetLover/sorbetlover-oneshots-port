@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="carmen/carmen1" icon="carmen/carmen1" color="#1A0E2F">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="0" y="5" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="33" y="10" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="0" y="10" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="0" y="50" fps="24" loop="false"/>
+</character>
