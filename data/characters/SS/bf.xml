@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="SS/cartoon_bf_Gun" flipX="true" isPlayer="true" color="#72C7ED">
+	<anim name="idle" anim="BF idle dance"/>
+	<anim name="singDOWN" anim="down0" x="-102" y="-33"/>
+	<anim name="singRIGHT" anim="right0" x="-5" y="1"/>
+	<anim name="singLEFT" anim="left0" x="-91" y="-6"/>
+	<anim name="singUP" anim="up0" x="118" y="55"/>
+	<anim name="singDOWN-miss" anim="MissD" x="-52" y="-41"/>
+	<anim name="singLEFT-miss" anim="MissL" x="-71" y="-6"/>
+	<anim name="singRIGHT-miss" anim="MissR" x="-41" y="-1"/>
+	<anim name="singUP-miss" anim="MissU" x="-25" y="84"/>
+	<anim name="reload" anim="BF reload" x="-38" y="14"/>
+	<anim name="singDOWN-alt" anim="Bf Shoot D" x="92" y="-12"/>
+	<anim name="singLEFT-alt" anim="Bf Shoot L" x="221" y="99"/>
+	<anim name="singRIGHT-alt" anim="Bf Shoot R" x="82" y="105"/>
+	<anim name="singUP-alt" anim="Bf Shoot U" x="60" y="79"/>
+	<anim name="up dodge" anim="up dodge" x="-3" y="69"/>
+	<anim name="down dodge" anim="down dodge" x="55" y="-5"/>
+	<anim name="left dodge" anim="left dodge" x="51" y="21"/>
+	<anim name="dodge right" anim="dodge right"/>
+</character>

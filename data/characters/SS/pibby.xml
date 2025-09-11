@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character icon="SS/pibby" color="#C98FFB" flipX="true" isPlayer="true">
+	<anim name="idle" anim="Idle instancia 1"/>
+	<anim name="singDOWN" anim="Down instancia 1" x="136" y="57"/>
+	<anim name="singRIGHT" anim="Right instancia 1" x="32" y="57"/>
+	<anim name="singLEFT" anim="Left instancia 1" x="160" y="53"/>
+	<anim name="singUP" anim="Up instancia 1" x="20" y="138"/>
+	<anim name="Cmon" anim="Cmon instancia 1" x="82" y="94"/>
+	<anim name="singDOWN-miss" anim="MissD instancia 1" x="122" y="34"/>
+	<anim name="singLEFT-miss" anim="MissL instancia 1" x="154" y="49"/>
+	<anim name="singRIGHT-miss" anim="MissR instancia 1" x="36" y="48"/>
+	<anim name="singUP-miss" anim="MissU instancia 1" x="17" y="136"/>
+	<anim name="hey" anim="HEY Pose instancia 1" x="18" y="35"/>
+</character>

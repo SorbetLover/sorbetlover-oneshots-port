@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/SS/" name="lab" zoom="0.9">
+	<sprite x="-22.4239044021244" sprite="bg" y="-12.8136596621732" type="none" scale="1.5" name="sprite_3"/>
+	<dad/>
+	<boyfriend x="948.440447812707" y="55.8436729620463" camxoffset="-100"/>
+	<girlfriend alpha="0"/>
+	<sprite x="-615.055663728313" sprite="bulb" y="-230.64587389811" type="none" name="sprite_4"/>
+	<sprite x="-34.5238170583291" sprite="darkalt" y="-1236.19047220428" type="none" scalex="1.8" scaley="2" name="sprite_5"/>
+</stage>

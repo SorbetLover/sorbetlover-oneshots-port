@@ -1,0 +1,15 @@
+{
+	"color": "#A4A4A4",
+	"customValues": {},
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "SS/finn",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "suffering-siblings",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 195
+}
